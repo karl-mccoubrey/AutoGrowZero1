@@ -1,1 +1,1 @@
-IS_DEV = True
+IS_DEV = False
