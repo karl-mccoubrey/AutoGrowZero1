@@ -1,6 +1,9 @@
 from src.api.flask import app
 import RPi.GPIO as GPIO
-from .src.config.pinout import GPIO_MODE, PINOUT
+#from .src.config.pinout import GPIO_MODE, PINOUT
+from src.config.pinout import PINOUT
+from src.config.pinout import GPIO_MODE
+
 
 GPIO.setMode(GPIO_MODE)
 GPIO.setup(PINOUT['TEMP'], GPIO.IN)
