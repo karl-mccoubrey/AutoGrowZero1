@@ -5,7 +5,7 @@ from src.config.pinout import PINOUT
 from src.config.pinout import GPIO_MODE
 
 
-GPIO.setMode(GPIO_MODE)
+GPIO.setmode(GPIO_MODE)
 GPIO.setup(PINOUT['TEMP'], GPIO.IN)
 
 if __name__ == '__main__':
