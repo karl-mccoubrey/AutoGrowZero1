@@ -1,6 +1,10 @@
 
 def log_data_to_firebase(item):
-    match item['action']:
+    # match statement var
+    matchItem = item['action']
+    
+    # match statement to determine action to handle 
+    match matchItem:
         case 'getTemp':
             # log temp
             log_temperature_to_firebase(item['data'])
