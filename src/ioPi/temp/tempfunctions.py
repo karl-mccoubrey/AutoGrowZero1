@@ -1,4 +1,4 @@
-from RPi.GPIO import GPIO
+import RPi.GPIO as GPIO
 from ...config.pinout import PINOUT
 from ...config.config import IS_DEV
 
