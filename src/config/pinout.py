@@ -1,4 +1,4 @@
-from RPI.GPIO import GPIO
+from RPi.GPIO import GPIO
 
 GPIO_MODE = GPIO.BOARD
 PINOUT = {
