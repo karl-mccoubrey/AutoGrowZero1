@@ -9,4 +9,4 @@ GPIO.setmode(GPIO_MODE)
 GPIO.setup(PINOUT['TEMP'], GPIO.IN)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=666, threaded=True)
+    app.run(debug=True, host='0.0.0.0', port=7897, threaded=True)
